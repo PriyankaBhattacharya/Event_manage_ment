@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.example.php';
+include 'db_connect.php';
 session_start();
 ?>
 <!DOCTYPE html>
@@ -160,7 +160,7 @@ if (isset($_POST['register'])) {
             </select>
         </div>
 
-        <!-- <div id="userFields" style="display: none;">
+        <div id="userFields" style="display: none;">
             <div class="mb-3 text-start">
                 <label class="form-label">Event Type</label>
                 <select name="event_type" class="form-control">
@@ -181,7 +181,7 @@ if (isset($_POST['register'])) {
                     <option value="canada">Canada</option>
                 </select>
             </div>
-        </div> -->
+        </div>
 
         <div id="adminField" style="display: none;">
             <div class="mb-3 text-start">
