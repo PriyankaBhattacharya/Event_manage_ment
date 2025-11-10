@@ -1,0 +1,18 @@
+# Common
+/vendor/
+/node_modules/
+.DS_Store
+Thumbs.db
+
+# XAMPP/Local config
+/.idea/
+/.vscode/
+
+# Secrets and DB files
+db_connect.php
+.env
+*.sql
+
+# Uploads / runtime files
+/uploads/
+storage/
